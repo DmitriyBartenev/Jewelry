@@ -2,6 +2,10 @@
     margin: 0 auto;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
 .container{
     background-image:url("img/bgc.png");
     background-size:1920px 950px;
@@ -62,5 +66,50 @@
     font-size:40px;
     line-height:auto;
     font-weight: bold;
+}
+.button1{
+    margin-top:62px;
+    width:267px;
+    height:51px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border:white solid 1px;
+    text-transform: uppercase;
+    font-size:18px;
+    line-height:21px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.button1:hover{
+    background-color:#2b2b2b;
+}
+.button1:active{
+    background-color:#1d1d1d;
+}
+.bottom_main_block{
+    width:100%;
+    height:120px;
+    margin-top:80px;
+    border-top:#FFFFFF solid 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_with_small_blocks{
+    width:1110px;
+    height:60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cocofine_jewelry{
+    width:175px;
+    height:60px;
+    border-right:#FFFFFF solid 1px;
+}
+#fix_border{
+    border-right:none;
 }
 
