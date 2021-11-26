@@ -49,4 +49,18 @@
 .header_key1{
     margin-right:10px;
 }
+.main_title{
+    margin-top:505px;
+    width:730px;
+    height:49px;
+    color:#FFFFFF;
+}
+.text_of_main_title{
+    width:730px;
+    height:49px;
+    text-align:center;
+    font-size:40px;
+    line-height:auto;
+    font-weight: bold;
+}
 
