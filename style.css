@@ -112,4 +112,66 @@ a{
 #fix_border{
     border-right:none;
 }
+.tab-form{
+    display:none;
+}
+.tab-form.active,
+#tab-1:checked ~ #form-1,
+#tab-2:checked ~ #form-2,
+#tab-3:checked ~ #form-3,
+#tab-4:checked ~ #form-4,
+#tab-5:checked ~ #form-5,
+#tab-6:checked ~ #form-6{
+    display:block
+}
+label.tab{
+    color:#000000;
+    font-weight:25px;
+    display:inline-flex;  
+    width:165px;
+    height:61px;
+    background-color:beige;
+    border-radius:3px 3px 0 0 ;
+    margin-bottom: -1px;
+    cursor:pointer;
+}
+label.tab.active,
+input[name="tabs"]:checked + label {
+    background-color:#FFF;
+    color:#1d5f75;
+}
+input[name="tabs"]{
+    display:none;
+}
+.block2{
+    width:100%;
+    height:1071px;
+    background-color:beige;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.true_beauty{
+    width:1110px;
+    height:851px;
+    background-color:azure;
+}
+#title_of_beauty{
+    font-size:21px;
+    color:#333333;
+    text-align:center;
+    width:350px;
+    height:29px;
+    line-height:29px;
+}
+#text_of_real_beauty{
+    font-size:30px;
+    font-weight:bold;
+    width:540px;
+    height:41px;
+    line-height:41px;
+    color:#333333;
+    text-align:center;
+}
+
 
