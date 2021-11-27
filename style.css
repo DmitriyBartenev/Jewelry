@@ -6,6 +6,9 @@ a{
     text-decoration: none;
     color:#FFFFFF;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     background-image:url("img/bgc.png");
     background-size:1920px 950px;
@@ -125,20 +128,28 @@ a{
     display:block
 }
 label.tab{
-    color:#000000;
-    font-weight:25px;
-    display:inline-flex;  
+    color:#333333;
+    font-weight:700;
+    line-height:21px;
+    letter-spacing: 1px;
+    font-size:18px;
+    display:inline-flex; 
     width:165px;
     height:61px;
-    background-color:beige;
-    border-radius:3px 3px 0 0 ;
-    margin-bottom: -1px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px #ececec;
+    border:#D6D6D6 solid 1px;
     cursor:pointer;
+    margin-top:60px;
+    text-transform: uppercase;
 }
 label.tab.active,
 input[name="tabs"]:checked + label {
-    background-color:#FFF;
-    color:#1d5f75;
+    background-color:#333333;
+    box-shadow: none;
+    border:none;
+    color:#FFFFFF;
+    text-transform: uppercase;
 }
 input[name="tabs"]{
     display:none;
@@ -146,7 +157,6 @@ input[name="tabs"]{
 .block2{
     width:100%;
     height:1071px;
-    background-color:beige;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -154,7 +164,6 @@ input[name="tabs"]{
 .true_beauty{
     width:1110px;
     height:851px;
-    background-color:azure;
 }
 #title_of_beauty{
     font-size:21px;
@@ -172,6 +181,26 @@ input[name="tabs"]{
     line-height:41px;
     color:#333333;
     text-align:center;
+}
+.container_of_tabs{
+    width:1110px;
+    height:706px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.text_of_tab{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.content_of_form{
+    width:1110px;
+    height:588px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:55px;
 }
 
 
