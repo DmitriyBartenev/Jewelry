@@ -29,7 +29,35 @@
                 </div>
             </div>
             <div class = "header_key">
-                <a href = "#">Вход/Регистрация</a>
+                <a href = "#openModal" id = "signIn_logIn">Вход/Регистрация</a>
+                <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Название</h3>
+                          <div id = "close_tag"><a href="#close" title="Close" class="close">×</a></div>
+                        </div>
+                        <div class="modal-body">    
+                          <div class="log_in">
+                             <label title = "LogIn">Авторизация</label> 
+                             <label title = "SignIn">Регистрация</label>
+
+                             <form class = "tab_form">
+                                 <input type = "email" placeholder = "Введите E-mail...">
+                                 <input type = "password" placeholder = "Введит пароль...">
+                                 <a href = "#" class = "buton_form">Войти</a>
+                                 <ul>
+                                     <li><a href = "#"><img src = "img/facebook.svg"></a></li>
+                                     <li><a href = "#"><img src = "img/instagram.svg"></a></li>
+                                     <li><a href = "#"><img src = "img/twitter.svg"></a></li>
+                                 </ul>
+                             </form>
+                        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>              
             </div>
             <div class = "header_key1">
                 <a href = "#"><img src = "img/account.png" width = "24" height = "24"></a>
@@ -77,41 +105,41 @@
             <div id = "text_of_real_beauty">Настоящая красота здесь!</div>
             <div class = "container_of_tabs">
                 <input type = "radio" id ="tab-1" name = "tabs" checked>
-                <label class = "tab" for = "tab-1" title = "Вкладка1"><div class = "text_of_tab">Свадьба</div></label>
+                <label class = "tab" for = "tab-1" title = "Wedding"><div class = "text_of_tab">Свадьба</div></label>
 
                 <input type = "radio" id ="tab-2" name = "tabs">
-                <label class = "tab" for = "tab-2" title = "Вкладка2"><div class = "text_of_tab">Мужу</div></label>
+                <label class = "tab" for = "tab-2" title = "Husband"><div class = "text_of_tab">Мужу</div></label>
 
                 <input type = "radio" id ="tab-3" name = "tabs">
-                <label class = "tab" for = "tab-3" title = "Вкладка3"><div class = "text_of_tab">Жене</div></label>
+                <label class = "tab" for = "tab-3" title = "Wife"><div class = "text_of_tab">Жене</div></label>
 
                 <input type = "radio" id ="tab-4" name = "tabs">
-                <label class = "tab" for = "tab-4" title = "Вкладка4"><div class = "text_of_tab">Партнеру</div></label>
+                <label class = "tab" for = "tab-4" title = "Partner"><div class = "text_of_tab">Партнеру</div></label>
 
                 <input type = "radio" id ="tab-5" name = "tabs">
-                <label class = "tab" for = "tab-5" title = "Вкладка5"><div class = "text_of_tab">Коллекции</div></label>
+                <label class = "tab" for = "tab-5" title = "Collections"><div class = "text_of_tab">Коллекции</div></label>
 
                 <input type = "radio" id ="tab-6" name = "tabs">
-                <label class = "tab" for = "tab-6" title = "Вкладка6"><div class = "text_of_tab">Редкость</div></label>
+                <label class = "tab" for = "tab-6" title = "Rarity"><div class = "text_of_tab">Редкость</div></label>
 
                 <form id = "form-1" class = "tab-form">
                     <div class = "content_of_form"> 
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_first_screen.png" width = "350" heigh = "280"></a>
                         </div>
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_second_screen.png" width = "350" height = "280"></a>
                         </div>
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_third_screen.png" width = "350" height = "280"></a>
                         </div>
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_fourth_screen.png" width = "350" height = "280"></a>
                         </div>
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_fifth_screen.png" width = "350" height = "280"></a>
                         </div>
-                        <div>
+                        <div class = "photo_of_form">
                             <a href = "#"><img src = "img/wedding_sixth_screen.png" width = "350" height = "280"></a>
                         </div>
                         
