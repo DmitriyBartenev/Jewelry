@@ -14,10 +14,6 @@ a{
 html{
     scroll-behavior: smooth;
 }
-ul{
-    list-style:none;
-    padding:0;
-}
 .block1{
     background-image:url("img/bgc.png");
     background-size:1920px 950px;
@@ -160,7 +156,11 @@ ul{
     padding: 15px;
     overflow: auto;
     background-color: #333333;
-  }
+}
+.modal-body>form>ul{
+    list-style: none;
+    padding:0;
+}
 .modal-body input{
     display:block;
     width:100%;
@@ -468,6 +468,136 @@ input[name="tabs"]{
 }
 .our_blog:active{
     background-color:#1a1a1a;
+}
+.block5{
+    width:1110px;
+    height:745px;
+    margin-top:120px;
+}
+.ojjo_jewelry{
+    text-align: center;
+    font-size:21px;
+    font-weight: 400;
+    line-height:29px;
+    color:#333333;
+}
+.text6{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    color:#333333;
+    line-height:41px;
+    letter-spacing: 1px;
+    margin-top:15px;
+    margin-bottom:60px;
+}
+.block_of_videos>video{
+    margin:0;
+    transition:0.2s;
+}
+.block_of_videos>video:hover{
+    transform:scale(1.05);
+}
+.video{
+    margin:0;
+    height:292px;
+    width:278px;
+    transition:.2s;
+}
+.video:hover{
+    transform:scale(1.05);
+}
+
+.block_of_videos{
+    width:1110px;
+    height:584px;       
+    display:flex;
+    flex-wrap:wrap;
+}
+.block6{
+    margin-top:135px;
+    width:100%;
+    height:478px;
+    background-image:url(img/bck_ground.png);
+    color:#FFFFFF;
+}
+.advices{
+    width:920px;
+    height:29px;
+    padding-top:100px;
+    text-align:center;
+    font-size:21px;
+    line-height:29px;
+    font-weight: 400;
+}
+.exclusive{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    line-height:41px;
+    margin-top:15px;
+}
+.block_distribution{
+    width:764px;
+    height:113px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:60px;
+}
+.list_of_block6{
+    list-style-image: url('img/subscribe__icon.png');
+    line-height: 40px;
+    padding-right:60px;
+}
+.list_of_block6>ul>li{
+    padding-left:20px;
+}
+.border_of_distribution{
+    width:448px;
+    height:113px;
+    border:#FFFFFF solid 1px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.form_of_distribution{
+    width:418px;
+    height:84px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#FFFFFF;
+}
+.form_of_distribution>input{
+    width:200px;
+    height:45px;
+    color:#3333337e;
+    text-transform: uppercase;
+    font-size:14px;
+    line-height:16px;
+    font-weight: 500;
+}
+.form_of_distribution>input::placeholder{
+    padding:15px 87px 14px 19px;
+}
+.distribution_button{
+    width:162px;
+    height:45px;
+    color:#FFFFFF;
+    font-size:14px;
+    text-transform: uppercase;
+    background-color:#333333;
+    font-weight: 450;
+    border:none;
+    cursor:pointer;
+    letter-spacing: 2px;
+}
+.distribution_button:hover{
+    background-color:#2b2b2b;
+}
+.distribution_button:active{
+    background-color:#1d1d1d;
 }
 
 
