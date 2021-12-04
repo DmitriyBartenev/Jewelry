@@ -599,6 +599,61 @@ input[name="tabs"]{
 .distribution_button:active{
     background-color:#1d1d1d;
 }
+.footer{
+    width:1110px;
+    height:295px;
+    margin-top:80px;
+    display:flex;
+}
+.footer ul{
+    list-style: none;
+    padding-left:0;
+    padding-top:30px;
+}
+.footer ul>li{
+    padding-bottom:15px;
+    color:#333333;
+    font-size:14px;
+    font-weight: 500;
+    line-height:21px;
+}
+.links{
+    width:255px;
+    height:194px;
+}
+.payment{
+    width:255px;
+    height:179px;
+}
+.contacts{  
+    width:255px;
+    height:158px;
+}
+.social_media{
+    width:255px;
+    height:176px;
+}
+.social_media>ul>li{
+    display:inline-block;
+    padding-right:20px;
+    align-items: center;
+}
+#latin_text{
+    display:block;
+    color:#333333;
+}
+.footer_text{
+    font-size:18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height:25px;
+    color:#333333;
+    text-transform: uppercase;
+    width:255px;
+    border-bottom:#333333 solid 1px;
+    padding-bottom:10px;
+}
+
 
 
 
