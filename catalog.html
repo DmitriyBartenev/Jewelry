@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <container>
+        <div class = "fixed_header">
+            <div class = "header">
+                <div class = "header_key">
+                    <a href = "#">Контрагентам</a>
+                </div>
+                <div class = "header_key">
+                    <a href = "#">Дизайнерам</a>
+                </div>
+                <div class = "header_key">
+                    <a href = "#">Вакансии</a>
+                </div>           
+                <div class = "header_key" id = "logo">
+                    <img src = "img/logo.png" width = "216" height = "52">
+                </div>
+                <div class = "header_key" id = "search">
+                    <div id = "icon_search">
+                        <img src = "img/gridicons_search.png">
+                    </div>
+                    <div id = "search_text">
+                        <a href = "#">Поиск</a>
+                    </div>
+                </div>
+                <div class = "header_key">
+                    <a href = "#openModal" id = "signIn_logIn">Вход/Регистрация</a>
+                    <div id="openModal" class="modal">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <div class="modal-title"><img src = "img/logo.png"></div>
+                            <div id = "close_tag"><a href="#close" title="Close" class="close">×</a></div>
+                            </div>
+                            <div class="modal-body">    
+
+                                <input type = "radio" id ="tab_1" name = "tabs1" checked>
+                                <label class = "tab_" for = "tab_1" title = "Log_In">Авторизация</label> 
+                                
+                                <input type = "radio" id ="tab_2" name = "tabs1">
+                                <label class = "tab_" for = "tab_2" title = "Sign_In">Регистрация</label>
+
+                                <form id = "form_1" class = "tab_form">
+                                    <input type = "email" placeholder = "Введите E-mail...">
+                                    <input type = "password" placeholder = "Введите пароль...">
+                                    <a href = "#" class = "buton_form">Войти</a>
+                                    <ul>
+                                        <li><a href = "#"><img src = "img/facebook.svg"></a></li>
+                                        <li><a href = "#"><img src = "img/instagram.svg"></a></li>
+                                        <li><a href = "#"><img src = "img/twitter.svg"></a></li>
+                                    </ul>
+                                    <a href = "#" id = "forget_email">Я забыл(-а) свой E-mail или пароль</a>
+                                </form>
+
+                                <form id = "form_2" class = "tab_form">
+                                    
+                                    <input type = "email" placeholder = "Введите E-mail адрес...">
+                                    <input type = "text" placeholder = "Введите Ваше имя...">
+                                    <input type = "password" placeholder = "Введите пароль...">
+                                    <a href = "#" class = "buton_form">Регистрация</a>
+                                    <div class="recover">
+                                        <input type = "checkbox">
+                                        <label>Ознакомлен(-а) и принимаю условия регистрации</label>
+                                    </div>
+                                    
+                                </form>
+                            
+                            </div>
+                        </div>
+                        </div>
+                    </div>              
+                </div>
+                <div class = "header_key1">
+                    <a href = "#"><img src = "img/account.png" width = "24" height = "24"></a>
+                </div>
+                <div>
+                    <a href = "#"><img src = "img/like.png" width = "18" height = "18"></a>
+                </div>
+            </div>
+        </div>
+    </container>
+</body>
+</html>

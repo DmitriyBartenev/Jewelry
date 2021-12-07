@@ -779,8 +779,11 @@ input[name="tabs"]{
     text-decoration-line: underline;
     text-decoration-skip-ink: none;
 }
-
-
+            /*---- СТРАНИЦА КАТАЛОГА----*/
+.fixed_header{
+    background-color:#333333;
+    height:111px;
+}
 
 
 
