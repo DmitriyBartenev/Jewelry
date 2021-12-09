@@ -784,6 +784,113 @@ input[name="tabs"]{
     background-color:#333333;
     height:111px;
 }
+.filter_block{
+    width:1110px;
+    margin-top:100px;
+}
+#filter_list{
+    width:1100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter_block>ul{
+    padding:0;
+    margin:0;
+    position:relative;
+}
+.filter_block ul li{
+    margin:0;
+    position:relative;
+    display:inline-block;
+    padding:10px 0;
+    width:160px;
+    text-align: left;
+    border-bottom:#333333 solid 1px;
+}
+.filter_block ul li img{
+    position:absolute;
+    right:0;
+    bottom:17px;
+}
+.filter_block ul a{
+    display:block;
+    color:#333333;
+    font-size:16px;
+    line-height:24px;
+    font-weight: 450;
+}
+.filter_block ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    z-index:10;
+    padding:0px;
+}
+.filter_block ul li:hover > ul{
+    display:inherit;
+}
+.filter_block ul ul li{
+    text-align:center;
+    width:160px;
+    list-style: none;
+    float:none;
+    display:list-item;
+    position:relative;
+}
+.card_block{
+    width:1040px;
+    height:929px;
+    margin-top:94px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.card{
+    width:280px;
+    height:369px;
+}
+.card a img{
+    width:280px;
+    height:220px;
+    transition:.2s;
+}
+.card a img:hover{
+    transform:scale(1.1);
+}
+.kind_of_jewelry{
+    font-size:16px;
+    font-weight: 400;
+    line-height:24px;
+    color:#333333;
+    margin-top:25px;
+    text-align:center;
+}
+.name_of_brand{
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 34px;
+    margin-top:10px;
+    color:#333333;
+}
+.price_block{
+    width:129px;
+    height:41px;
+    margin-top:15px;
+    background-color: #333333;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#FFFFFF;
+}
+.price_block:hover{
+    background-color:#2b2b2b;
+}
+.price_block:active{
+    background-color: #1d1d1d;
+}
 
 
 
