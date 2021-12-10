@@ -1,14 +1,22 @@
-let button1 = document.getElementByClass('button1')
-button1.addEventListener('click', smoothscroll)
+window.onload = function () {
+    var box=document.getElementsByClassName('card');
+    var btn=document.getElementById('more-button');
+    for (let i=6;i<box.length;i++) {
+        box[i].style.display = "none";
+    }
 
-function smoothscroll(){
-    formaSend.scrollIntoView({behavior: 'smooth'})
+    var countD = 6;
+    btn.addEventListener("click", function() {
+        var box=document.getElementsByClassName('card');
+        countD += 6;
+        if (countD <= box.length){
+            for(let i=0;i<countD;i++){
+                box[i].style.display = "block";
+            }
+        }
+    })
 }
-//               TABS                //
-//$(document).ready(function(){
-//    $('.container_of_tabs').on('click', '.tab', function(){
-//        $('.container_of_tabs').find('active').removeClass('active');
-//        $(this).addClass('active');
-//        $('.tab-form').eq($(this).index()).addClass('active');
-//   });
-//});
+let but = document.getElementById('more-button');
+but.addEventListener("click", function(){
+    but.style.display = "none";
+})
