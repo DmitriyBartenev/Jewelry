@@ -990,6 +990,29 @@ font-weight: 500;
 line-height:21px;
 border-bottom: #333333 dashed 1px;
 }
-
+                    /*Страница с карточкой товара*/
+.breadcrumbs ul{
+    margin-top:60px;
+    width:400px;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    line-height:21px;
+    color:#333333;
+}
+.breadcrumbs ul li{
+    display:inline-block;
+    list-style:none;
+}
+.breadcrumbs ul a {
+    color:#333333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.breadcrumbs ul a:hover{
+    color:#222222;
+}
 
 
