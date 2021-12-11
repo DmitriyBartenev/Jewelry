@@ -16,8 +16,7 @@ html{
 }
 .block1{
     background-image:url("img/bgc.png");
-    background-size:1920px 950px;
-    width:100%;
+    background-size:cover;
     height:950px;
 }
 .header{
