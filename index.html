@@ -261,10 +261,10 @@
                     </ul>
                 </div>
                 <div class = "border_of_distribution">
-                    <form action="email.php" method="post">
-                        <input type="text" name="fio" placeholder="Укажите ФИО" required>
-                        <input type="text" name="email" placeholder="Укажите e-mail" required>
-                        <input type="submit" value="Отправить">
+                    <form action="send.php" method="post">
+                        Ваше имя <input type="text" name="first_name"><br>
+                        Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
+                        <input type="submit" name="submit" value="Submit">
                     </form>
                 </div>
             </div>
