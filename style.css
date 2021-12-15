@@ -644,18 +644,25 @@ input[name="tabs"]{
     align-items:center;
     background-color:#FFFFFF;
 }
-.form_of_distribution>input{
+.form_of_distribution>form>input{
     width:200px;
     height:45px;
-    color:#3333337e;
+    color:#0000007e;
     font-size:14px;
     line-height:16px;
     font-weight: 500;
 }
-.form_of_distribution>input::placeholder{
+.form_of_distribution [name = email]{
+    padding:0;
+    border:none;
+}
+.form_of_distribution[name=email]:active,:focus{
+    outline:none;
+}
+.form_of_distribution[name=email]::placeholder{
     padding:15px 87px 14px 19px;
 }
-.distribution_button{
+.form_of_distribution [name=submit]{
     width:162px;
     height:45px;
     color:#FFFFFF;
@@ -667,10 +674,10 @@ input[name="tabs"]{
     cursor:pointer;
     letter-spacing: 2px;
 }
-.distribution_button:hover{
+.form_of_distribution [name=submit]:hover{
     background-color:#2b2b2b;
 }
-.distribution_button:active{
+.form_of_distribution [name=submit]:active{
     background-color:#1d1d1d;
 }
 .footer{

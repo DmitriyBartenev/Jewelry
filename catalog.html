@@ -250,10 +250,10 @@
                 </div>
                 <div class = "border_of_distribution">
                     <div class = "form_of_distribution">
-                        <input type = "email" placeholder="ВАШ E-MAIL">
-                        <button class = "distribution_button">
-                            отправить
-                        </button>
+                        <form action="send.php" method="post">
+                            <input type="text" name="email" required placeholder="ВАШ E-MAIL...">
+                            <input type="submit" name="submit" value="Отправить">
+                        </form>
                     </div>
                 </div>
             </div>
