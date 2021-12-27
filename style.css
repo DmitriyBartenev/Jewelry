@@ -1021,5 +1021,116 @@ border-bottom: #333333 dashed 1px;
 .breadcrumbs ul a:hover{
     color:#222222;
 }
+.two_blocks{
+    margin-top:51px;
+    width:1110px;
+    height:588px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab_card{
+    width:540px;
+    height:580px;
+}
+.border_card{
+    width:540px;
+    height:580px;
+    border:1px solid #D6D6D6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_card{
+    width:520px;
+    height:560px;
+    border:1px solid #D6D6D6;
+}
+.title_info_card{
+    font-size:24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height:28px;
+    margin-top:40px;
+    margin-left:30px;
+    color:#333333;
+}
+.small_breadcrumbs{
+    color:#979797;
+    display:flex;
+    width:520px;
+    margin-top:30px;
+    margin-left:30px;
+}
+.breadcrumb{
+    margin:0;
+    width:164px;
+    font-size:15px;
+    font-weight: normal;
+    line-height:21px;
+}
+.text_info_card{
+    width:460px;
+    height:234px;
+    border-top:1px solid #D6D6D6;
+    padding-top:30px;
+    margin-top:30px;
+    color:#333333;
+    font-size:15px;
+    font-weight: normal;
+    line-height: 23px;
+}
+.price_info_card{
+    margin-top:30px;
+    margin-left:30px;
+    font-size:24px;
+    font-weight: 600;
+    color:#333333;
+}
+.button_block{
+    margin-top:30px;
+    display:flex;
+}
+.buy_this{
+    width:115px;
+    height:41px;
+    border:none;
+    color:#FFFFFF;
+    background-color:#333333;
+    font-size:18px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin:0;
+    margin-left:30px;
+    cursor:pointer;
+}
+.buy_this:hover{
+    background-color:#2b2b2b;
+}
+.buy_this:active{
+    background-color: #1b1b1b;
+}
+.add-button{
+    width:253px;
+    height:41px;
+    border:solid 1px #333333;
+    color:#333333;
+    background-color:#FFFFFF;
+    cursor:pointer;
+    margin:0;
+    margin-left:25px;
+    font-size:18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.add-button:hover{
+    background-color:#ececec;
+}
+.add-button:active{
+    background-color:#e2e2e2;
+}
+
 
 
