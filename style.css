@@ -1126,11 +1126,19 @@ border-bottom: #333333 dashed 1px;
     text-transform: uppercase;
 }
 .add-button:hover{
-    background-color:#ececec;
+    background-color:#f5f5f5;
 }
 .add-button:active{
     background-color:#e2e2e2;
 }
-
+.text_description{
+    width:923px;
+    margin-bottom:-50px;
+    margin-top:112px;
+    font-size:30px;
+    font-weight: bold;
+    color:#333333;
+    line-height:42px;
+}
 
 
