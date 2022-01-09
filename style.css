@@ -1140,5 +1140,30 @@ border-bottom: #333333 dashed 1px;
     color:#333333;
     line-height:42px;
 }
+.recomended_block{
+    width:1110px;
+    height:549px;
+    margin-top:120px;
+}
+.first_header{
+    font-size:21px;
+    font-weight: normal;
+    color:#333333;
+    line-height:29px;
+    text-align: center;
+    margin-bottom:15px;
+}
+.second_header{
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    line-height:41px;
+    margin-bottom:95px;
+    color:#333333; 
+}
+.suggested_product{
+    display:flex;
+    width:100%;
+}
 
 
