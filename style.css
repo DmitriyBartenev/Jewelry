@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700,800');
 *{
     margin: 0 auto;
     font-family:Roboto, sans-serif;
@@ -42,6 +42,10 @@ html{
     font-size:15px;
     line-height:150%;
     margin-right:40px;
+}
+#logo>a{
+    width:216px;
+    height:52px;
 }
 #signIn_logIn{
     font-size:14px;
@@ -1069,6 +1073,36 @@ border-bottom: #333333 dashed 1px;
     font-weight: normal;
     line-height:21px;
 }
+.block_with_slider{
+    width:540px;
+    height:580px;
+}
+.slider {
+    width: 540px;
+    height: 430px;
+  }
+.slider__item {
+    position: relative;
+}
+.img-fluid {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+.bottom_sliders{
+    width:540px;
+    height:120px;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+}
+.img-fluid{
+    width:540px;
+    height:430px;
+}
+.extra_photos{
+    margin:0;
+}
 .text_info_card{
     width:460px;
     height:234px;
@@ -1077,8 +1111,8 @@ border-bottom: #333333 dashed 1px;
     margin-top:30px;
     color:#333333;
     font-size:15px;
-    font-weight: normal;
-    line-height: 23px;
+    font-weight: 500;
+    line-height: 24px;
 }
 .price_info_card{
     margin-top:30px;
@@ -1131,6 +1165,9 @@ border-bottom: #333333 dashed 1px;
 .add-button:active{
     background-color:#e2e2e2;
 }
+#add-buttonID>a{
+    color:#333333;
+}
 .text_description{
     width:923px;
     margin-bottom:-50px;
@@ -1165,5 +1202,6 @@ border-bottom: #333333 dashed 1px;
     display:flex;
     width:100%;
 }
+
 
 

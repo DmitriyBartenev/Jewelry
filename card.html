@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Card Product</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simple-adaptive-slider.min.css">
+    <script defer src="simple-adaptive-slider.js"></script>
 </head>
 <body>
 <div class = "container">
@@ -88,24 +90,48 @@
         <ul>
             <li><a href = "index.html">Главная</a></li> /
             <li><a href = "catalog.html">Каталог</a></li> /
-            <li>Подвеска Tiffani & Co</li>
+            <li>Подвеска Tiffany & Co</li>
         </ul>
     </div>
     <div class = "two_blocks">
-        <div class = "tab_card">
-            
+        <div class = "block_with_slider">
+            <div class="slider">
+                <div class="slider__wrapper">
+                  <div class="slider__items">
+                    <div class="slider__item">
+                      <img class="img-fluid" src="img/Rectangle 23.png" alt="..." width="540" height="430" loading="lazy">
+                    </div>
+                    <div class="slider__item">
+                      <img class="img-fluid" src="img/Rectangle 23.png" alt="..." width="540" height="430" loading="lazy">
+                    </div>
+                    <div class="slider__item">
+                      <img class="img-fluid" src="img/Rectangle 23.png" alt="..." width="540" height="430" loading="lazy">
+                    </div>
+                    <div class="slider__item">
+                      <img class="img-fluid" src="img/Rectangle 23.png" alt="..." width="540" height="430" loading="lazy">
+                    </div>
+                  </div>
+                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+            </div>
+            <div class = "bottom_sliders">
+                <div class = "extra_photos"><img src = "img/Rectangle 21.png" width = "160" height = "120" alt = "..."></div>
+                <div class = "extra_photos"><img src = "img/Rectangle 21.png" width = "160" height = "120" alt = "..."></div>
+                <div class = "extra_photos"><img src = "img/Rectangle 21.png" width = "160" height = "120" alt = "..."></div>
+            </div>
         </div>
         <div class = "border_card">
             <div class = "info_card">
                 <div class = "title_info_card">
-                    Подвеска Tiffani & Co
+                    Подвеска Tiffany & Co
                 </div>
                 <div class = "small_breadcrumbs">
                     <div class = "breadcrumb">
                         Категория: Подвески
                     </div>
                     <div class = "breadcrumb">
-                        Бренд: Tiffani & Co
+                        Бренд: Tiffany & Co
                     </div>
                 </div>
                 <div class = "text_info_card">
@@ -118,10 +144,10 @@
                 </div>
                 <div class = "button_block">
                     <button class = "buy_this">
-                        купить
+                        <a href = "#">купить</a>
                     </button>
-                    <button class = "add-button">
-                        добавить в корзину
+                    <button class = "add-button" id = "add-buttonID">
+                        <a href = "#">добавить в корзину</a>
                     </button>
                 </div>
             </div>
@@ -151,19 +177,19 @@
             <div class = "card">
                 <a href = "card.html"><img src = "img/Rectangle 21.png" width = "280" height = "220"></a>
                 <div class = "kind_of_jewelry">Подвеска</div>
-                <div class = "name_of_brand">Tiffani & Co</div>
+                <div class = "name_of_brand">Tiffany & Co</div>
                 <a href = "card.html"><div class = "price_block">175 000 ₽</div></a>
             </div>
             <div class = "card">
                 <a href = "card.html"><img src = "img/Rectangle 21.png" width = "280" height = "220"></a>
                 <div class = "kind_of_jewelry">Подвеска</div>
-                <div class = "name_of_brand">Tiffani & Co</div>
+                <div class = "name_of_brand">Tiffany & Co</div>
                 <a href = "card.html"><div class = "price_block">175 000 ₽</div></a>
             </div>
             <div class = "card">
                 <a href = "card.html"><img src = "img/Rectangle 21.png" width = "280" height = "220"></a>
                 <div class = "kind_of_jewelry">Подвеска</div>
-                <div class = "name_of_brand">Tiffani & Co</div>
+                <div class = "name_of_brand">Tiffany & Co</div>
                 <a href = "card.html"><div class = "price_block">175 000 ₽</div></a>
             </div>
         </div>
@@ -259,6 +285,6 @@
         </div>
     </div>
 </div>
-<script src="script.js"></script>
+<script src = "slider.js"></script>
 </body>
 </html>
