@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class = "container">
+    <div class = "fixed_header">
+        <div class = "header">
+            <div class = "header_key">
+                <a href = "#">Контрагентам</a>
+            </div>
+            <div class = "header_key">
+                <a href = "#">Дизайнерам</a>
+            </div>
+            <div class = "header_key">
+                <a href = "#">Вакансии</a>
+            </div>           
+            <div class = "header_key" id = "logo">
+                <a href = "index.html"><img src = "img/logo.png" width = "216" height = "52"></a>
+            </div>
+            <div class = "header_key" id = "search">
+                <div id = "icon_search">
+                    <img src = "img/gridicons_search.png">
+                </div>
+                <div id = "search_text">
+                    <a href = "#">Поиск</a>
+                </div>
+            </div>
+            <div class = "header_key">
+                <a href = "#openModal" id = "signIn_logIn">Вход/Регистрация</a>
+                <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <div class="modal-title"><img src = "img/logo.png"></div>
+                        <div id = "close_tag"><a href="#close" title="Close" class="close">×</a></div>
+                        </div>
+                        <div class="modal-body">    
+
+                            <input type = "radio" id ="tab_1" name = "tabs1" checked>
+                            <label class = "tab_" for = "tab_1" title = "Log_In">Авторизация</label> 
+                            
+                            <input type = "radio" id ="tab_2" name = "tabs1">
+                            <label class = "tab_" for = "tab_2" title = "Sign_In">Регистрация</label>
+
+                            <form id = "form_1" class = "tab_form">
+                                <input type = "email" placeholder = "Введите E-mail...">
+                                <input type = "password" placeholder = "Введите пароль...">
+                                <a href = "#" class = "buton_form">Войти</a>
+                                <ul>
+                                    <li><a href = "#"><img src = "img/facebook.svg"></a></li>
+                                    <li><a href = "#"><img src = "img/instagram.svg"></a></li>
+                                    <li><a href = "#"><img src = "img/twitter.svg"></a></li>
+                                </ul>
+                                <a href = "#" id = "forget_email">Я забыл(-а) свой E-mail или пароль</a>
+                            </form>
+
+                            <form id = "form_2" class = "tab_form">
+                                
+                                <input type = "email" placeholder = "Введите E-mail адрес...">
+                                <input type = "text" placeholder = "Введите Ваше имя...">
+                                <input type = "password" placeholder = "Введите пароль...">
+                                <a href = "#" class = "buton_form">Регистрация</a>
+                                <div class="recover">
+                                    <input type = "checkbox">
+                                    <label>Ознакомлен(-а) и принимаю условия регистрации</label>
+                                </div>
+                                
+                            </form>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>              
+            </div>
+            <div class = "header_key1">
+                <a href = "#"><img src = "img/account.png" width = "24" height = "24"></a>
+            </div>
+            <div>
+                <a href = "#"><img src = "img/like.png" width = "18" height = "18"></a>
+            </div>
+        </div>
+    </div>
+    <div class = "breadcrumbs_contacts"> 
+        <ul>
+            <li><a href = "index.html">Главная</a></li> /
+            <li>Контакты</li>
+        </ul>
+    </div>
+    <h1 class = "contacts_header">Контакты</h1>
+    <div class = "contacts_block">  
+        <div class = "listblock">
+            <ul>
+                <li class = "title_list">Главный офис</li>
+                <li id = "ph1" class = "padding_class">Невский 140, офис 1-5</li>
+                <li class = "padding_class">Невский 140, офис 1-5</li>
+            </ul>
+        </div>
+        <div class = "listblock">
+            <ul>
+                <li class = "title_list">Телефоны</li>
+                <li id = "ph2" class = "padding_class">8 (812) 458-56-45</li>
+                <li class = "padding_class">8-911-878-00-00</li>
+            </ul>
+        </div>
+        <div class = "listblock">
+            <ul>
+                <li class = "title_list">E-mail</li>
+                <li id = "ph3" class = "padding_class">office@ojjo.com</li>
+                <li class = "padding_class">sales@ojjo.com</li>
+            </ul>
+        </div>
+        <div class = "listblock">
+            <ul>
+                <li class = "title_list">Доп. адреса</li>
+                <li id = "ph4" class = "padding_class"> Невский 142, офис 1-5</li>
+                <li class = "padding_class">Загородный 145, офис 11-15</li>
+            </ul>
+        </div>
+    </div>
+    <div class = "map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0bc7419bb6afc89763f0021dec5ca8bc2248202bb652d6c2c6f5127b9379650a&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="footer">
+        <div class = "links">
+            <div class = "footer_text">
+                Полезные ссылки
+            </div>
+            <ul>
+                <li><a href = "#">Доставка</a></li>
+                <li><a href = "#">Оплата</a></li>
+                <li><a href = "#">Акции</a></li>
+                <li><a href = "#">Политика конфиденциальности</a></li>
+            </ul>
+        </div>
+        <div class = "payment">
+            <div class = "footer_text">
+                оплата
+            </div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</li>
+                <li><img src = "img/Rectangle 13.png" width = "45" height = "30" style = "padding-right:20px;"><img src = "img/Rectangle 14.png" width="45" height = "30"></li>
+            </ul>
+        </div>
+        <div class = "contacts">
+            <div class = "footer_text">
+                контакты
+            </div>
+            <div class = "contacts_list">
+                <div class = "contact_item">
+                    <div class = "text_contact_item">8 (812) 234-56-55</div>
+                </div>
+                <div class = "contact_item">
+                    <div class = "text_contact_item">8 (812) 234-56-55</div>
+                </div>
+                <div class = "contact_item2">
+                    <div class = "text_contact_item">ojjo@ojjo.ru</div>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class = "footer_text">
+                социальные сети
+            </div>
+            <ul>
+                <li id = "latin_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</li>
+                <li><a href = "#"><img src = "img/carbon_logo-youtube.png" width = "26" height = "26"></a></li>
+                <li><a href = "#"><img src = "img/entypo-social_vk.png" width = "24" height = "24"></a></li>
+                <li><a href = "#"><img src = "img/bx_bxl-facebook.png" width = "26" height = "26"></a></li>
+                <li><a href = "#"><img src = "img/bx_bxl-telegram.png" width = "24" height = "24"></a></li>
+                <li><a href = "#"><img src = "img/simple-icons_etsy.png" width = "16" height = "16"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class = "footer_of_footer">
+        <div class="OJJOjewelry">
+            <a href = "#">(c) 2020 OJJO jewelry</a>
+        </div>
+        <div class="OJJOjewelry">
+            <a href = "#">Договор публичной офферты</a>
+        </div>
+        <div class = "OJJOjewelry">
+            <a href = "#">Контрагентам</a>
+        </div>
+        <div class = "OJJOjewelry" id ="help">
+            <a href = "https://github.com/DmitriyBartenev">Bartenev Dmitriy</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

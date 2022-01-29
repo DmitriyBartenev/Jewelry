@@ -16,8 +16,9 @@ html{
 }
 .block1{
     background-image:url("img/bgc.png");
-    background-size:cover;
+    background-size:100% 100%;
     height:950px;
+
 }
 .header{
     display:flex;
@@ -432,7 +433,7 @@ input[name="tabs"]{
     margin-top:20px;
 }
 .text2{
-   width:540px;
+   width:640px;
    height:41px;
    font-size:30px;
    font-weight:bold;
@@ -1201,6 +1202,94 @@ border-bottom: #333333 dashed 1px;
 .suggested_product{
     display:flex;
     width:100%;
+}
+.breadcrumbs_contacts ul{
+    margin-top:60px;
+    width:157px;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    line-height:21px;
+    color:#333333;
+}
+.breadcrumbs_contacts ul li{
+    display:inline-block;
+    list-style:none;
+}
+.breadcrumbs_contacts ul a {
+    color:#333333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.breadcrumbs_contacts ul a:hover{
+    color:#222222;
+}
+.contacts_header{
+    width:146px;
+    height:28px;
+    font-size:24px;
+    font-weight: 500;
+    line-height:28px;
+    color:#333333;
+    display:block;
+    margin:0 auto;
+    margin-top:60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contacts_block{
+    width:1110px;
+    height:166px;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid #D6D6D6;
+}
+.contacts_block ul{
+    padding:0;
+    list-style: none;
+}
+.contacts_block ul li{
+    padding-bottom:15px;
+}
+.title_list{
+    margin-bottom:10px;
+    font-size:18px;
+    color:#333333;
+    font-weight: bold;
+    line-height:25px;
+    padding-left:0;
+}
+#ph1{
+    background-image:url('img/gridicons_location.png');
+    background-repeat: no-repeat;
+}
+#ph2{
+    background-image:url('img/carbon_phone-filled.png');
+    background-repeat: no-repeat;
+}
+#ph3{
+    background-image:url('img/foundation_mail.png');
+    background-repeat: no-repeat;
+}
+#ph4{
+    background-image:url('img/gridicons_location.png');
+    background-repeat: no-repeat;
+}
+.padding_class{
+    padding-left:30px;
+    color:#333333;
+    font-size:16px;
+    font-weight: 400;
+    line-height:21px;
+}
+.map{
+    width:1110px;
+    height:720px;
+    margin-top:60px;
 }
 
 
